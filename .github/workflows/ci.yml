@@ -42,7 +42,9 @@ jobs:
         run: docker compose up -d --build
 
       - name: Wait for app to be healthy
-        run: docker compose ps
+        run: |
+          sleep 5
+          docker compose ps
 
       - name: Smoke test API
         run: |
