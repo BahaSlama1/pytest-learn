@@ -1,5 +1,5 @@
 def main():
-    print("Hello from pytest-learn!")
+    print("TEST-CD")
 
 
 if __name__ == "__main__":
